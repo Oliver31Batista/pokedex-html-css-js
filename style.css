@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 1em;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  #search-form label {
+    margin-bottom: 0.5em;
+  }
+  
+  #search-form input,
+  #search-form button {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  #pokemon-info {
+    background-color: #ddd;
+    padding: 1em;
+    width: 50%;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
